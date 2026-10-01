@@ -90,8 +90,7 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor \
     libqti_vndfwk_detect.vendor_32 \
     libsamsungSoundbooster_plus \
-    SoundBoosterStage \
-    SamsungDAP
+    SoundBoosterStage
 
 $(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7125-common:lib_SoundBooster_ver1050)
 
