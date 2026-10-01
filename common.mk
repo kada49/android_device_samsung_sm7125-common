@@ -88,11 +88,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libvolumelistener \
     libprocessgroup.vendor \
-    libqti_vndfwk_detect.vendor_32 \
-    libsamsungSoundbooster_plus \
-    SoundBoosterStage
-
-$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7125-common:lib_SoundBooster_ver1050)
+    libqti_vndfwk_detect.vendor_32
 
 TARGET_EXCLUDES_AUDIOFX := true
 
